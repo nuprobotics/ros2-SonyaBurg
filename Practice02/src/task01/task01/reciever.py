@@ -6,8 +6,9 @@ class reciever(Node) :
 	   super(reciever, self).__init__('simple_node')
 	   timer_period = 1
 	   self.subscriber = self.create_subscription(String, '/spgc/sender', self.subscriber_callback, qos_profile=10)
+
 	def subscriber_callback(self, msg):
-	   self.get_logger().info("msg.data")
+	   self.get_logger().info(msg.data)
 def main () :
    rclpy.init()
    node = reciever()
