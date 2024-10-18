@@ -1,0 +1,39 @@
+[0.619s] Invoking command in '/ros2SonyaBurg/Practice02/src/task02': PYTHONPATH=/ros2SonyaBurg/Practice02/src/task02/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/task02 build --build-base /ros2SonyaBurg/Practice02/src/task02/build/task02/build install --record /ros2SonyaBurg/Practice02/src/task02/build/task02/install.log --single-version-externally-managed install_data
+[0.836s] running egg_info
+[0.837s] creating build/task02/task02.egg-info
+[0.837s] writing build/task02/task02.egg-info/PKG-INFO
+[0.838s] writing dependency_links to build/task02/task02.egg-info/dependency_links.txt
+[0.838s] writing entry points to build/task02/task02.egg-info/entry_points.txt
+[0.838s] writing requirements to build/task02/task02.egg-info/requires.txt
+[0.838s] writing top-level names to build/task02/task02.egg-info/top_level.txt
+[0.838s] writing manifest file 'build/task02/task02.egg-info/SOURCES.txt'
+[0.840s] reading manifest file 'build/task02/task02.egg-info/SOURCES.txt'
+[0.841s] writing manifest file 'build/task02/task02.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] creating /ros2SonyaBurg/Practice02/src/task02/build/task02/build
+[0.842s] creating /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib
+[0.842s] creating /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib/task02
+[0.842s] copying task02/publisher.py -> /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib/task02
+[0.842s] copying task02/__init__.py -> /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib/task02
+[0.842s] running install
+[0.843s] running install_lib
+[0.843s] creating /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02
+[0.844s] copying /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib/task02/publisher.py -> /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02
+[0.844s] copying /ros2SonyaBurg/Practice02/src/task02/build/task02/build/lib/task02/__init__.py -> /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02
+[0.845s] byte-compiling /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02/publisher.py to publisher.cpython-310.pyc
+[0.845s] byte-compiling /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02/__init__.py to __init__.cpython-310.pyc
+[0.846s] running install_data
+[0.846s] creating /ros2SonyaBurg/Practice02/src/task02/install/task02/share/ament_index
+[0.846s] creating /ros2SonyaBurg/Practice02/src/task02/install/task02/share/ament_index/resource_index
+[0.846s] creating /ros2SonyaBurg/Practice02/src/task02/install/task02/share/ament_index/resource_index/packages
+[0.846s] copying resource/task02 -> /ros2SonyaBurg/Practice02/src/task02/install/task02/share/ament_index/resource_index/packages
+[0.846s] copying package.xml -> /ros2SonyaBurg/Practice02/src/task02/install/task02/share/task02
+[0.846s] creating /ros2SonyaBurg/Practice02/src/task02/install/task02/share/task02/config
+[0.846s] copying config/task02.yaml -> /ros2SonyaBurg/Practice02/src/task02/install/task02/share/task02/config
+[0.846s] running install_egg_info
+[0.850s] Copying build/task02/task02.egg-info to /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages/task02-0.0.0-py3.10.egg-info
+[0.851s] running install_scripts
+[0.879s] Installing publisher script to /ros2SonyaBurg/Practice02/src/task02/install/task02/lib/task02
+[0.880s] writing list of installed files to '/ros2SonyaBurg/Practice02/src/task02/build/task02/install.log'
+[0.908s] Invoked command in '/ros2SonyaBurg/Practice02/src/task02' returned '0': PYTHONPATH=/ros2SonyaBurg/Practice02/src/task02/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/task02/install/task02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/task02 build --build-base /ros2SonyaBurg/Practice02/src/task02/build/task02/build install --record /ros2SonyaBurg/Practice02/src/task02/build/task02/install.log --single-version-externally-managed install_data
