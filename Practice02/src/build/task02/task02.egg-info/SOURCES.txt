@@ -9,6 +9,7 @@ setup.py
 ../build/task02/task02.egg-info/top_level.txt
 ../build/task02/task02.egg-info/zip-safe
 config/task02.yaml
+launch/task02.launch
 resource/task02
 task02/__init__.py
 task02/publisher.py
