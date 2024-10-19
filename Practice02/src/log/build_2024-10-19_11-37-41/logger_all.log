@@ -1,0 +1,226 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73980ee36620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73980ee36170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73980ee36170>>, mixin_verb=('build',))
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.239s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.239s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros2SonyaBurg/Practice02/src'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(task01) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'task01' with type 'ros.ament_python' and name 'task01'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(task02) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'task02' with type 'ros.ament_python' and name 'task02'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(task03) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'task03' with type 'ros.ament_python' and name 'task03'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(task04) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task01' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'task01' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2SonyaBurg/Practice02/src/build/task01', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2SonyaBurg/Practice02/src/install/task01', 'merge_install': False, 'path': '/ros2SonyaBurg/Practice02/src/task01', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'task02' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'task02' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2SonyaBurg/Practice02/src/build/task02', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2SonyaBurg/Practice02/src/install/task02', 'merge_install': False, 'path': '/ros2SonyaBurg/Practice02/src/task02', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'task03' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'task03' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2SonyaBurg/Practice02/src/build/task03', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2SonyaBurg/Practice02/src/install/task03', 'merge_install': False, 'path': '/ros2SonyaBurg/Practice02/src/task03', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2SonyaBurg/Practice02/src/task01' with build type 'ament_python'
+[0.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('task01', 'ament_prefix_path')
+[0.288s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/ament_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/ament_prefix_path.dsv'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/ament_prefix_path.sh'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2SonyaBurg/Practice02/src/task02' with build type 'ament_python'
+[0.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('task02', 'ament_prefix_path')
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/ament_prefix_path.ps1'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/ament_prefix_path.dsv'
+[0.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/ament_prefix_path.sh'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2SonyaBurg/Practice02/src/task03' with build type 'ament_python'
+[0.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('task03', 'ament_prefix_path')
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/ament_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.601s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2SonyaBurg/Practice02/src/task01'
+[0.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2SonyaBurg/Practice02/src/task02'
+[0.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.158s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2SonyaBurg/Practice02/src/task03'
+[1.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2SonyaBurg/Practice02/src/task02': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task02 build --build-base /ros2SonyaBurg/Practice02/src/build/task02/build install --record /ros2SonyaBurg/Practice02/src/build/task02/install.log --single-version-externally-managed install_data
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2SonyaBurg/Practice02/src/task03': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task03 build --build-base /ros2SonyaBurg/Practice02/src/build/task03/build install --record /ros2SonyaBurg/Practice02/src/build/task03/install.log --single-version-externally-managed install_data
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2SonyaBurg/Practice02/src/task01': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task01 build --build-base /ros2SonyaBurg/Practice02/src/build/task01/build install --record /ros2SonyaBurg/Practice02/src/build/task01/install.log --single-version-externally-managed install_data
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2SonyaBurg/Practice02/src/task02' returned '0': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task02 build --build-base /ros2SonyaBurg/Practice02/src/build/task02/build install --record /ros2SonyaBurg/Practice02/src/build/task02/install.log --single-version-externally-managed install_data
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02' for CMake module files
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02' for CMake config files
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02/lib'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02/bin'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02/lib/pkgconfig/task02.pc'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages'
+[2.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('task02', 'pythonpath')
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/pythonpath.ps1'
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/pythonpath.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/hook/pythonpath.sh'
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task02/bin'
+[2.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task02)
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/package.ps1'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/package.dsv'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/package.sh'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/package.bash'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task02/share/task02/package.zsh'
+[2.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2SonyaBurg/Practice02/src/install/task02/share/colcon-core/packages/task02)
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03' for CMake module files
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2SonyaBurg/Practice02/src/task03' returned '0': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task03 build --build-base /ros2SonyaBurg/Practice02/src/build/task03/build install --record /ros2SonyaBurg/Practice02/src/build/task03/install.log --single-version-externally-managed install_data
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03/lib'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03/bin'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03/lib/pkgconfig/task03.pc'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages'
+[2.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('task03', 'pythonpath')
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/pythonpath.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/pythonpath.dsv'
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/hook/pythonpath.sh'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task03/bin'
+[2.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task03)
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/package.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/package.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/package.sh'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/package.bash'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task03/share/task03/package.zsh'
+[2.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2SonyaBurg/Practice02/src/install/task03/share/colcon-core/packages/task03)
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01' for CMake module files
+[2.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2SonyaBurg/Practice02/src/task01' returned '0': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task01 build --build-base /ros2SonyaBurg/Practice02/src/build/task01/build install --record /ros2SonyaBurg/Practice02/src/build/task01/install.log --single-version-externally-managed install_data
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01/lib'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01/bin'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01/lib/pkgconfig/task01.pc'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages'
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('task01', 'pythonpath')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/pythonpath.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/pythonpath.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/hook/pythonpath.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/ros2SonyaBurg/Practice02/src/install/task01/bin'
+[2.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task01)
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/package.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/package.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/package.sh'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/package.bash'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/ros2SonyaBurg/Practice02/src/install/task01/share/task01/package.zsh'
+[2.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2SonyaBurg/Practice02/src/install/task01/share/colcon-core/packages/task01)
+[2.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.084s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.093s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.093s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[2.093s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2SonyaBurg/Practice02/src/install/local_setup.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2SonyaBurg/Practice02/src/install/_local_setup_util_ps1.py'
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2SonyaBurg/Practice02/src/install/setup.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2SonyaBurg/Practice02/src/install/local_setup.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2SonyaBurg/Practice02/src/install/_local_setup_util_sh.py'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2SonyaBurg/Practice02/src/install/setup.sh'
+[2.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2SonyaBurg/Practice02/src/install/local_setup.bash'
+[2.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2SonyaBurg/Practice02/src/install/setup.bash'
+[2.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2SonyaBurg/Practice02/src/install/local_setup.zsh'
+[2.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2SonyaBurg/Practice02/src/install/setup.zsh'

@@ -15,7 +15,6 @@ class Publisher(Node) :
 	def timer_callback (self):
 	   msg = String()
 	   msg.data = self.get_parameter("text").get_parameter_value().string_value
-	   self.get_logger().info(self.topic_name)
 	   self.publisher.publish(msg)
 
 

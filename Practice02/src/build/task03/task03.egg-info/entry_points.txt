@@ -1,0 +1,3 @@
+[console_scripts]
+service = task03.service:main
+

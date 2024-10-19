@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (task01) JobQueued: {'identifier': 'task01', 'dependencies': OrderedDict()}
+[0.000362] (task02) JobQueued: {'identifier': 'task02', 'dependencies': OrderedDict()}
+[0.000394] (task03) JobQueued: {'identifier': 'task03', 'dependencies': OrderedDict()}
+[0.000423] (task01) JobStarted: {'identifier': 'task01'}
+[0.009583] (task02) JobStarted: {'identifier': 'task02'}
+[0.015123] (task03) JobStarted: {'identifier': 'task03'}
+[0.099285] (-) TimerEvent: {}
+[0.199818] (-) TimerEvent: {}
+[0.300362] (-) TimerEvent: {}
+[0.400857] (-) TimerEvent: {}
+[0.501351] (-) TimerEvent: {}
+[0.602240] (-) TimerEvent: {}
+[0.703507] (-) TimerEvent: {}
+[0.803975] (-) TimerEvent: {}
+[0.904471] (-) TimerEvent: {}
+[1.005042] (-) TimerEvent: {}
+[1.105643] (-) TimerEvent: {}
+[1.206256] (-) TimerEvent: {}
+[1.306879] (-) TimerEvent: {}
+[1.312588] (task01) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/task01', 'build', '--build-base', '/ros2SonyaBurg/Practice02/src/build/task01/build', 'install', '--record', '/ros2SonyaBurg/Practice02/src/build/task01/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2SonyaBurg/Practice02/src/task01', 'env': {'HOSTNAME': 'a98cc33c7334', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/ros2SonyaBurg/Practice02/src/task03', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install/task01:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2SonyaBurg/Practice02/src/build/task01', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2SonyaBurg/Practice02/src/build/task01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages:/ros2SonyaBurg/Practice02/src/task01/install/task01/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.321769] (task03) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/task03', 'build', '--build-base', '/ros2SonyaBurg/Practice02/src/build/task03/build', 'install', '--record', '/ros2SonyaBurg/Practice02/src/build/task03/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2SonyaBurg/Practice02/src/task03', 'env': {'HOSTNAME': 'a98cc33c7334', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/ros2SonyaBurg/Practice02/src/task03', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install/task01:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2SonyaBurg/Practice02/src/build/task03', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2SonyaBurg/Practice02/src/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages:/ros2SonyaBurg/Practice02/src/task01/install/task01/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.363742] (task02) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/task02', 'build', '--build-base', '/ros2SonyaBurg/Practice02/src/build/task02/build', 'install', '--record', '/ros2SonyaBurg/Practice02/src/build/task02/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2SonyaBurg/Practice02/src/task02', 'env': {'HOSTNAME': 'a98cc33c7334', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/ros2SonyaBurg/Practice02/src/task03', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2SonyaBurg/Practice02/src/task01/install/task01:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2SonyaBurg/Practice02/src/build/task02', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2SonyaBurg/Practice02/src/build/task02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages:/ros2SonyaBurg/Practice02/src/task01/install/task01/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.407136] (-) TimerEvent: {}
+[1.507738] (-) TimerEvent: {}
+[1.608346] (-) TimerEvent: {}
+[1.641809] (task01) StdoutLine: {'line': b'running egg_info\n'}
+[1.643329] (task01) StdoutLine: {'line': b'writing ../build/task01/task01.egg-info/PKG-INFO\n'}
+[1.643854] (task01) StdoutLine: {'line': b'writing dependency_links to ../build/task01/task01.egg-info/dependency_links.txt\n'}
+[1.644100] (task01) StdoutLine: {'line': b'writing entry points to ../build/task01/task01.egg-info/entry_points.txt\n'}
+[1.644251] (task01) StdoutLine: {'line': b'writing requirements to ../build/task01/task01.egg-info/requires.txt\n'}
+[1.644417] (task01) StdoutLine: {'line': b'writing top-level names to ../build/task01/task01.egg-info/top_level.txt\n'}
+[1.646428] (task03) StdoutLine: {'line': b'running egg_info\n'}
+[1.646847] (task01) StdoutLine: {'line': b"reading manifest file '../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[1.648038] (task03) StdoutLine: {'line': b'writing ../build/task03/task03.egg-info/PKG-INFO\n'}
+[1.648847] (task03) StdoutLine: {'line': b'writing dependency_links to ../build/task03/task03.egg-info/dependency_links.txt\n'}
+[1.649081] (task01) StdoutLine: {'line': b"writing manifest file '../build/task01/task01.egg-info/SOURCES.txt'\n"}
+[1.649251] (task01) StdoutLine: {'line': b'running build\n'}
+[1.649432] (task01) StdoutLine: {'line': b'running build_py\n'}
+[1.649630] (task03) StdoutLine: {'line': b'writing entry points to ../build/task03/task03.egg-info/entry_points.txt\n'}
+[1.649790] (task03) StdoutLine: {'line': b'writing requirements to ../build/task03/task03.egg-info/requires.txt\n'}
+[1.649937] (task03) StdoutLine: {'line': b'writing top-level names to ../build/task03/task03.egg-info/top_level.txt\n'}
+[1.650082] (task01) StdoutLine: {'line': b'running install\n'}
+[1.650228] (task01) StdoutLine: {'line': b'running install_lib\n'}
+[1.651664] (task01) StdoutLine: {'line': b'running install_data\n'}
+[1.651916] (task03) StdoutLine: {'line': b"reading manifest file '../build/task03/task03.egg-info/SOURCES.txt'\n"}
+[1.652118] (task01) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.653339] (task03) StdoutLine: {'line': b"writing manifest file '../build/task03/task03.egg-info/SOURCES.txt'\n"}
+[1.653572] (task03) StdoutLine: {'line': b'running build\n'}
+[1.653681] (task03) StdoutLine: {'line': b'running build_py\n'}
+[1.653957] (task03) StdoutLine: {'line': b'copying task03/service.py -> /ros2SonyaBurg/Practice02/src/build/task03/build/lib/task03\n'}
+[1.654414] (task03) StdoutLine: {'line': b'running install\n'}
+[1.654815] (task03) StdoutLine: {'line': b'running install_lib\n'}
+[1.656096] (task03) StdoutLine: {'line': b'copying /ros2SonyaBurg/Practice02/src/build/task03/build/lib/task03/service.py -> /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03\n'}
+[1.657034] (task01) StdoutLine: {'line': b"removing '/ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.657283] (task03) StdoutLine: {'line': b'byte-compiling /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03/service.py to service.cpython-310.pyc\n'}
+[1.657584] (task01) StdoutLine: {'line': b'Copying ../build/task01/task01.egg-info to /ros2SonyaBurg/Practice02/src/install/task01/lib/python3.10/site-packages/task01-0.0.0-py3.10.egg-info\n'}
+[1.658539] (task03) StdoutLine: {'line': b'running install_data\n'}
+[1.658804] (task01) StdoutLine: {'line': b'running install_scripts\n'}
+[1.659086] (task03) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.663704] (task03) StdoutLine: {'line': b"removing '/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.664143] (task03) StdoutLine: {'line': b'Copying ../build/task03/task03.egg-info to /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03-0.0.0-py3.10.egg-info\n'}
+[1.665313] (task03) StdoutLine: {'line': b'running install_scripts\n'}
+[1.681308] (task02) StdoutLine: {'line': b'running egg_info\n'}
+[1.682731] (task02) StdoutLine: {'line': b'writing ../build/task02/task02.egg-info/PKG-INFO\n'}
+[1.683185] (task02) StdoutLine: {'line': b'writing dependency_links to ../build/task02/task02.egg-info/dependency_links.txt\n'}
+[1.683446] (task02) StdoutLine: {'line': b'writing entry points to ../build/task02/task02.egg-info/entry_points.txt\n'}
+[1.683745] (task02) StdoutLine: {'line': b'writing requirements to ../build/task02/task02.egg-info/requires.txt\n'}
+[1.683960] (task02) StdoutLine: {'line': b'writing top-level names to ../build/task02/task02.egg-info/top_level.txt\n'}
+[1.686128] (task02) StdoutLine: {'line': b"reading manifest file '../build/task02/task02.egg-info/SOURCES.txt'\n"}
+[1.687816] (task02) StdoutLine: {'line': b"writing manifest file '../build/task02/task02.egg-info/SOURCES.txt'\n"}
+[1.688130] (task02) StdoutLine: {'line': b'running build\n'}
+[1.688317] (task02) StdoutLine: {'line': b'running build_py\n'}
+[1.688625] (task02) StdoutLine: {'line': b'running install\n'}
+[1.688961] (task02) StdoutLine: {'line': b'running install_lib\n'}
+[1.690836] (task02) StdoutLine: {'line': b'running install_data\n'}
+[1.691179] (task02) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.696293] (task02) StdoutLine: {'line': b"removing '/ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages/task02-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.696919] (task02) StdoutLine: {'line': b'Copying ../build/task02/task02.egg-info to /ros2SonyaBurg/Practice02/src/install/task02/lib/python3.10/site-packages/task02-0.0.0-py3.10.egg-info\n'}
+[1.698111] (task01) StdoutLine: {'line': b'Installing reciever script to /ros2SonyaBurg/Practice02/src/install/task01/lib/task01\n'}
+[1.698373] (task02) StdoutLine: {'line': b'running install_scripts\n'}
+[1.698679] (task01) StdoutLine: {'line': b"writing list of installed files to '/ros2SonyaBurg/Practice02/src/build/task01/install.log'\n"}
+[1.704096] (task03) StdoutLine: {'line': b'Installing service script to /ros2SonyaBurg/Practice02/src/install/task03/lib/task03\n'}
+[1.704781] (task03) StdoutLine: {'line': b"writing list of installed files to '/ros2SonyaBurg/Practice02/src/build/task03/install.log'\n"}
+[1.708448] (-) TimerEvent: {}
+[1.736410] (task02) StdoutLine: {'line': b'Installing publisher script to /ros2SonyaBurg/Practice02/src/install/task02/lib/task02\n'}
+[1.737648] (task02) StdoutLine: {'line': b"writing list of installed files to '/ros2SonyaBurg/Practice02/src/build/task02/install.log'\n"}
+[1.739000] (task01) CommandEnded: {'returncode': 0}
+[1.758084] (task01) JobEnded: {'identifier': 'task01', 'rc': 0}
+[1.761517] (task03) CommandEnded: {'returncode': 0}
+[1.771499] (task03) JobEnded: {'identifier': 'task03', 'rc': 0}
+[1.778804] (task02) CommandEnded: {'returncode': 0}
+[1.788057] (task02) JobEnded: {'identifier': 'task02', 'rc': 0}
+[1.789628] (-) EventReactorShutdown: {}

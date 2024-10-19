@@ -1,0 +1,24 @@
+[1.322s] Invoking command in '/ros2SonyaBurg/Practice02/src/task03': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task03 build --build-base /ros2SonyaBurg/Practice02/src/build/task03/build install --record /ros2SonyaBurg/Practice02/src/build/task03/install.log --single-version-externally-managed install_data
+[1.630s] running egg_info
+[1.633s] writing ../build/task03/task03.egg-info/PKG-INFO
+[1.633s] writing dependency_links to ../build/task03/task03.egg-info/dependency_links.txt
+[1.633s] writing entry points to ../build/task03/task03.egg-info/entry_points.txt
+[1.633s] writing requirements to ../build/task03/task03.egg-info/requires.txt
+[1.633s] writing top-level names to ../build/task03/task03.egg-info/top_level.txt
+[1.635s] reading manifest file '../build/task03/task03.egg-info/SOURCES.txt'
+[1.637s] writing manifest file '../build/task03/task03.egg-info/SOURCES.txt'
+[1.637s] running build
+[1.637s] running build_py
+[1.638s] copying task03/service.py -> /ros2SonyaBurg/Practice02/src/build/task03/build/lib/task03
+[1.638s] running install
+[1.639s] running install_lib
+[1.639s] copying /ros2SonyaBurg/Practice02/src/build/task03/build/lib/task03/service.py -> /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03
+[1.640s] byte-compiling /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03/service.py to service.cpython-310.pyc
+[1.642s] running install_data
+[1.642s] running install_egg_info
+[1.648s] removing '/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03-0.0.0-py3.10.egg-info' (and everything under it)
+[1.648s] Copying ../build/task03/task03.egg-info to /ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03-0.0.0-py3.10.egg-info
+[1.649s] running install_scripts
+[1.687s] Installing service script to /ros2SonyaBurg/Practice02/src/install/task03/lib/task03
+[1.688s] writing list of installed files to '/ros2SonyaBurg/Practice02/src/build/task03/install.log'
+[1.730s] Invoked command in '/ros2SonyaBurg/Practice02/src/task03' returned '0': PYTHONPATH=/ros2SonyaBurg/Practice02/src/build/task03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/task03 build --build-base /ros2SonyaBurg/Practice02/src/build/task03/build install --record /ros2SonyaBurg/Practice02/src/build/task03/install.log --single-version-externally-managed install_data

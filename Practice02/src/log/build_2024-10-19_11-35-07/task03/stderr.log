@@ -1,0 +1,5 @@
+  File "/ros2SonyaBurg/Practice02/src/install/task03/lib/python3.10/site-packages/task03/service.py", line 35
+    if __name__ = "__main__":
+       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
